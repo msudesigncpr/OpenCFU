@@ -28,3 +28,6 @@ autoreconf -i
 ```
 automkae --add-missing
 ```
+
+Define this path in [constants.py](https://github.com/msudesigncpr/libcolonyfind/blob/main/src/libcolonyfind/constants.py)
+[Docs ](https://msudesigncpr.github.io/libcolonyfind/libcolonyfind/constants.html)for more info
