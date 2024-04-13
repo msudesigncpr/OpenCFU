@@ -1,7 +1,7 @@
 # OpenCFU
 
 ## About
-OpenCFU is a `C++` program used originally used to enumerate colonies through a GUI. 
+OpenCFU is a `C++` program originally used to enumerate colonies through a GUI. 
 [libcolonyfind](https://github.com/msudesigncpr/libcolonyfind/tree/main) relies heavily on this program to function. See the [libcolonyfind docs](https://msudesigncpr.github.io/libcolonyfind/libcolonyfind/colony_finder.html) for more info. 
 Because OpenCFU cannot properly parse command-line arguments in Windows, OpenCFU must be 
 built in `WSL` and invoked from Windows. 
