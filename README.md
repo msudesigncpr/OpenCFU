@@ -1,14 +1,31 @@
-OpenCFU
+# OpenCFU
 ======
 
-What is OpenCFU
+## About
 -------
-OpenCFU is a `C++` program to count bacterial colonies and other circular objects.
-It heavily uses `OpenCV` for image processing and `Gtkmm` for GUI.
-More information is available on the [website](http://www.opencfu.sourceforge.net).
-For a more technical description, you can read the article published 
-on [PLoS ONE](http://tinyurl.com/o3bk24o).
+OpenCFU is a `C++` program used originally used to enumerate colonies through a GUI. 
+[libcolonyfind](https://github.com/msudesigncpr/libcolonyfind/tree/main) relies heavily on this program to function. See the [libcolonyfind docs](https://msudesigncpr.github.io/libcolonyfind/libcolonyfind/colony_finder.html) for more info. 
+Because OpenCFU cannot properly parse command-line arguments in Windows, OpenCFU must be 
+built in `WSL` and invoked from Windows. 
 
-Installation
+See the [datasheets](https://github.com/msudesigncpr/datasheets/tree/tonic) for the OpenCFU reference paper
+## Installation
 -------
-http://opencfu.sourceforge.net/devcorner.php
+(All in `WSL`)
+
+```
+sudo apt update
+sudo apt install libopencv-dev
+```
+```
+git clone https://github.com/msudesigncpr/OpenCFU.git
+```
+```
+cd OpenCFU
+```
+```
+autoreconf -i
+```
+```
+automkae --add-missing
+```
