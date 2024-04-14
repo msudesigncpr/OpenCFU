@@ -10,13 +10,15 @@ See the [datasheets](https://github.com/msudesigncpr/datasheets/tree/tonic) for 
 ## Installation
 (All in `WSL`)
 
+> install opencv devel ver
 ```
-sudo apt update
-sudo apt install libopencv-dev
+sudo apt update && apt install libopencv-dev
 ```
+> clone into OpenCFU
 ```
 git clone https://github.com/msudesigncpr/OpenCFU.git
 ```
+> build
 ```
 cd OpenCFU
 ```
@@ -24,7 +26,13 @@ cd OpenCFU
 autoreconf -i
 ```
 ```
+./configure --without-gui
+```
+```
 automkae --add-missing
+```
+```
+./opencfu -h
 ```
 
 Define this path in [constants.py](https://github.com/msudesigncpr/libcolonyfind/blob/main/src/libcolonyfind/constants.py)
