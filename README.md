@@ -37,4 +37,4 @@ make
 Define this path in [constants.py](https://github.com/msudesigncpr/libcolonyfind/blob/main/src/libcolonyfind/constants.py)
 
 
-See the [libcolonyfind docs]([https://msudesigncpr.github.io/libcolonyfind/libcolonyfind/constants.html](https://msudesigncpr.github.io/libcolonyfind/libcolonyfind/constants.html#CFU_WIN_PATH)) for more info
+See the [libcolonyfind docs](https://msudesigncpr.github.io/libcolonyfind/libcolonyfind/constants.html#CFU_WIN_PATH) for more info
