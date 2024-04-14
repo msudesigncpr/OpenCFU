@@ -8,17 +8,13 @@ built in `WSL` and invoked from Windows.
 
 See the [datasheets](https://github.com/msudesigncpr/datasheets/tree/tonic) for the OpenCFU reference paper
 ## Installation
-(All in `WSL`)
 
-> install opencv devel ver
 ```
-sudo apt update && apt install libopencv-dev
+sudo apt update && sudo apt install libopencv-dev
 ```
-> clone into OpenCFU
 ```
 git clone https://github.com/msudesigncpr/OpenCFU.git
 ```
-> build
 ```
 cd OpenCFU
 ```
@@ -30,6 +26,9 @@ autoreconf -i
 ```
 ```
 automkae --add-missing
+```
+```
+make
 ```
 ```
 ./opencfu -h
